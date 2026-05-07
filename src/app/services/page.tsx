@@ -1,20 +1,12 @@
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { Counters } from "@/components/Counters";
-import { Work } from "@/components/Work";
-import { Blog } from "@/components/Blog";
 import { ContactCTA } from "@/components/ContactCTA";
 
-export default function Home() {
+export default function ServicesPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Hero />
-      <About />
       <Services />
       <Counters />
-      <Work />
-      <Blog />
       <ContactCTA />
     </div>
   );
