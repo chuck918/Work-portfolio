@@ -57,7 +57,7 @@ export const Footer = () => {
         </div>
         
         <div className="mt-16 pt-8 border-t border-black/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-[2px] text-black/30">
-          <p>Designed with Nazir</p>
+          <p>Designed by Nazir</p>
           <p>Privacy Policy &bull; Terms of Service</p>
         </div>
       </div>
